@@ -57,15 +57,23 @@ h1 {
 }
 
 h2 {
-  
+  font-size: 23px;
+  line-height: 32px;
+  margin: 0 0 24px;
 }
 
 h3 {
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0 0 24px;
 }
 
 h4,
 h5,
 h6 {
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0 0 24px;
 }
 
 p,
@@ -75,24 +83,51 @@ dl,
 table,
 address,
 figure {
+  margin: 0 0 24px;
 }
 
 ul,
 ol,
 blockquote {
+  font-size: 12px;
+  line-height: 16px;
+  padding-top: 8px;
+  color: Grey;
+  
+}
+
+ul,
+ol {
+  padding-left: 24px;
 }
 
 li ul,
 li ol {
+  font-style: italic;
+  font-size: 23px;
+  line-height: 32px;
+  margin: 0 0 24px;
+  font-family: "Times New Roman", serif;
+  padding-left: 24px;
 }
 
 blockquote {
+  font-size: inherit;
+  line-height: inherit;
 }
 
+
+
+
 figcaption {
+
 }
 
 hr {
+  border: 0;
+  height: 1px;
+  background: LightGrey;
+  margin: 0 0 24px;
 }
 
 a {
