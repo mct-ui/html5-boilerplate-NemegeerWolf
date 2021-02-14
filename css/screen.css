@@ -93,7 +93,6 @@ blockquote {
   line-height: 16px;
   padding-top: 8px;
   color: Grey;
-  
 }
 
 ul,
@@ -116,11 +115,7 @@ blockquote {
   line-height: inherit;
 }
 
-
-
-
 figcaption {
-
 }
 
 hr {
@@ -131,12 +126,18 @@ hr {
 }
 
 a {
-}
-
-a:hover,
-a:focus {
+  color: royalblue;
+  transition: all 0.1s ease-in-out;
 }
 
 a:visited,
 a:active {
+  color: blueviolet;
 }
+
+a:hover,
+a:focus {
+  color: crimson;
+}
+
+
