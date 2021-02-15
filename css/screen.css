@@ -13,6 +13,7 @@ html {
   /* top left bottom recht  */
   /*padding: 24px     24px   0
             top left/recht bottom*/
+  scroll-behavior: smooth;
 }
 
 /*
@@ -140,6 +141,32 @@ a:focus {
   color: crimson;
 }
 
+table {
+  width: 100%;
+  border-spacing: 0;
+}
+
+th {
+  text-align: left;
+}
+
+th,
+td {
+  padding: 4px 8px;
+  border-bottom: 1px solid gainsboro;
+}
+
+.odd {
+  background-color: whitesmoke;
+}
+
+/* Waarom niet gewoon dit lijntje?
+tr:nth-child(odd){
+  background-color: whitesmoke;
+}
+*/
+
+
 
 /*
     Media Queries
@@ -149,33 +176,29 @@ a:focus {
     Modify as content requires.
 */
 
-
 /* Extra small devices (portrait phones, less than 576px)
    No media query since this is the default in Bootstrap
 */
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  h1{
+  h1 {
     font-size: 58px;
     line-height: 68px;
   }
-  html{
+  html {
     padding: 48px 48px 24px;
   }
 }
 
 /* Large devices (landscape tablets, desktops, 992px and up) */
 @media (min-width: 992px) {
-
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-
 }
